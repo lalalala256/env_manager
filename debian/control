@@ -1,0 +1,9 @@
+Source: env-manager
+Priority: optional
+Maintainer: lalalala256
+Build-Depends: debhelper (>=9), dh-exec
+
+Package: env-manager
+Architecture: any
+Depends: vim, nmon, htop, git
+Description: Manage developer environment.
