@@ -5,5 +5,5 @@ Build-Depends: debhelper (>=9), dh-exec
 
 Package: env-manager
 Architecture: any
-Depends: vim, nmon, htop, git
+Depends: debhelper, dpkg-dev, git, htop, nmon, vim
 Description: Manage developer environment.
